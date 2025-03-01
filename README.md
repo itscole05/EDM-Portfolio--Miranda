@@ -16,7 +16,7 @@ Hello World! I am Erica Nicole C. Miranda, a 1st Year student under the course B
 
 # My Projects
 
-- Midterm Lab Task 1: Data Cleaning and Preparation using EXCEL()
+- Midterm Lab Task 1: Data Cleaning and Preparation using EXCEL (.)
 
-- Midterm Lab Task 2: Data Cleaning and Preparation using POWER QUERY ()
+- Midterm Lab Task 2: Data Cleaning and Preparation using POWER QUERY (.)
 
