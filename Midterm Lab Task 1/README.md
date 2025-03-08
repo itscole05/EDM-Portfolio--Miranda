@@ -24,6 +24,7 @@ For this task we were given a Flat data from Excel (See rawfile) and we are Task
 - Mapped the Normalized tables as a Physical Data Model
 
 ## STEP 3 Here's the screenshot of my output before I started data cleaning (See screenshot)
+<img src="" align="center" height="350" width="600"/>
 
 
 ## STEP 4 Here's the screenshot of my output after I started data cleaning (See screenshot)
