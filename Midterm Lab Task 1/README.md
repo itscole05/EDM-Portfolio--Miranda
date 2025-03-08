@@ -34,4 +34,4 @@ For this task we were given a Flat data from Excel (See rawfile) and we are Task
 
 ## Here's the Physical Data Model
 
-<img src="" align="center" height="350" width="600"/>
+<img src="https://github.com/itscole05/EDM-Portfolio--Miranda/blob/main/Midterm%20Lab%20Task%201/images/ERD-Miranda.png" align="center" height="350" width="600"/>
