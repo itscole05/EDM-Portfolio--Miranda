@@ -29,7 +29,7 @@ For this task we were given a Flat data from Excel (See rawfile) and we are Task
 
 ## STEP 4 Here's the screenshot of my output after I started data cleaning (See screenshot)
 
-<img src="" align="center" height="350" width="600"/>
+<img src="https://github.com/itscole05/EDM-Portfolio--Miranda/blob/main/Midterm%20Lab%20Task%201/images/CLEANED.jpg" align="center" height="350" width="600"/>
 
 
 ## Here's the Physical Data Model
