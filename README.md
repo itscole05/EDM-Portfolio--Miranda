@@ -2,7 +2,8 @@
 This portfolio will contain copies of my Enterprise Data Management Lab Exercises
 
 # About Me
-Hello World! I am Erica Nicole C. Miranda, a 1st Year student under the course Bachelor of Science Information System.
+Hello World! I am Erica Nicole C. Miranda, a 1st Year student under the course Bachelor of Science Information System at City College of Angeles. 
+I'm interested in learning more about being professional develover. 
 
 
 # Education
