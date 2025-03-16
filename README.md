@@ -23,6 +23,4 @@ I'm interested in learning more about being professional develover.  I've earned
 
 - Midterm Lab Task 2: [Data Cleaning and Preparation using POWER QUERY](https://github.com/itscole05/EDM-Portfolio--Miranda/tree/da1bc922b0fa8f7b343577ddfa0621bd35e1e1f3/Midterm%20Lab%20Task%202)
 
-- Midterm Lab Task 3: [ Using Pivot Table and Create Dashboard]()
-  
-
+- Midterm Lab Task 3. [Using Pivot Table and Create Dashboard](https://github.com/itscole05/EDM-Portfolio--Miranda/tree/itscoley/Midterm%20Lab%20Task%203)
