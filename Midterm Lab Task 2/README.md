@@ -52,4 +52,25 @@ In this task, we were given a raw data with a file named Uncleaned_DS_jobs.csv d
     
 - Remove any unwanted text from the Company Name column using Transform > Replace Values or Remove Text.
 
+## STEP 3 - Screenshots
+
+Before Data Cleaning: (See screenshot of raw data before any transformations were made.)
+
+After Data Cleaning: (See screenshot of cleaned data post-transformation.)
+
+## STEP 4 - Final Output Queries
+Here are the final queries after performing all necessary data transformations:
+
+Sal By Role Type dup: A query with job titles categorized by role type.
+
+Sal By Size ref: A query focusing on salary data by company size or another metric.
+
+Sal By State ref: A query analyzing salary data by state/location.
+
+Uncleaned DS Jobs: The original dataset before any transformations.
+
+## Physical Data Model ##
+
+(Insert physical data model screenshot here)
+
 
