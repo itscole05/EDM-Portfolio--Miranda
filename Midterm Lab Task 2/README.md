@@ -76,19 +76,19 @@ Sal By Role Type dup: A query with job titles categorized by role type.
 
 Sal By Size ref: A query focusing on salary data by company size or another metric.
 
-<img src="" align="center" height="350" width="600"/>
+<img src="https://github.com/itscole05/EDM-Portfolio--Miranda/blob/main/Midterm%20Lab%20Task%202/images2/Sal%20by%20size%20ref.png" align="center" height="350" width="600"/>
 
 
 
 Sal By State ref: A query analyzing salary data by state/location.
 
-<img src="" align="center" height="350" width="600"/>
+<img src="https://github.com/itscole05/EDM-Portfolio--Miranda/blob/main/Midterm%20Lab%20Task%202/images2/sal%20by%20state%20ref.png" align="center" height="350" width="600"/>
 
 
 
 Uncleaned DS Jobs: The original dataset before any transformations.
 
-<img src="" align="center" height="350" width="600"/>
+<img src="https://github.com/itscole05/EDM-Portfolio--Miranda/blob/main/Midterm%20Lab%20Task%202/images2/Uncleaned%20DS%20Jobs.jpg" align="center" height="350" width="600"/>
 
 
 
@@ -97,6 +97,6 @@ Uncleaned DS Jobs: The original dataset before any transformations.
 
 (Insert physical data model screenshot here)
 
-<img src="" align="center" height="350" width="600"/>
+<img src="https://github.com/itscole05/EDM-Portfolio--Miranda/blob/main/Midterm%20Lab%20Task%202/images2/Physical%20Model.jpg" align="center" height="350" width="600"/>
 
 
