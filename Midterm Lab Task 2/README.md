@@ -56,21 +56,47 @@ In this task, we were given a raw data with a file named Uncleaned_DS_jobs.csv d
 
 Before Data Cleaning: (See screenshot of raw data before any transformations were made.)
 
+<img src="" align="center" height="350" width="600"/>
+
+
+
 After Data Cleaning: (See screenshot of cleaned data post-transformation.)
+
+<img src="" align="center" height="350" width="600"/>
+
+
 
 ## STEP 4 - Final Output Queries
 Here are the final queries after performing all necessary data transformations:
 
 Sal By Role Type dup: A query with job titles categorized by role type.
 
+<img src="https://github.com/itscole05/EDM-Portfolio--Miranda/blob/main/Midterm%20Lab%20Task%202/images2/Sal%20by%20role%20type%20dup.png" align="center" height="350" width="600"/>
+
+
 Sal By Size ref: A query focusing on salary data by company size or another metric.
+
+<img src="" align="center" height="350" width="600"/>
+
+
 
 Sal By State ref: A query analyzing salary data by state/location.
 
+<img src="" align="center" height="350" width="600"/>
+
+
+
 Uncleaned DS Jobs: The original dataset before any transformations.
+
+<img src="" align="center" height="350" width="600"/>
+
+
 
 ## Physical Data Model ##
 
+
 (Insert physical data model screenshot here)
+
+<img src="" align="center" height="350" width="600"/>
 
 
