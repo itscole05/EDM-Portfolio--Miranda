@@ -56,13 +56,13 @@ In this task, we were given a raw data with a file named Uncleaned_DS_jobs.csv d
 
 Before Data Cleaning: (See screenshot of raw data before any transformations were made.)
 
-<img src="" align="center" height="350" width="600"/>
+<img src="https://github.com/itscole05/EDM-Portfolio--Miranda/blob/main/Midterm%20Lab%20Task%202/images2/Physical%20Model.jpg" align="center" height="350" width="600"/>
 
 
 
 After Data Cleaning: (See screenshot of cleaned data post-transformation.)
 
-<img src="" align="center" height="350" width="600"/>
+<img src="https://github.com/itscole05/EDM-Portfolio--Miranda/blob/main/Midterm%20Lab%20Task%202/images2/Uncleaned_data.jpg" align="center" height="350" width="600"/>
 
 
 
