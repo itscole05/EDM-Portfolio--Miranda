@@ -8,6 +8,10 @@ Load Data: Open Worksheet on Uncleaned DS Jobs and the transform tables.
 
 ##  STEP 2 - Pivot Table Creation ##
 
+Sal by Role
+
+
+
 ## STEP 3 - Design Your Dashboard ##
 
 ## STEP 4 - Insert Slicers for Interactivity ##
