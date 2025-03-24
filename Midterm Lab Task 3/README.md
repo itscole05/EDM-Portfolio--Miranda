@@ -10,6 +10,16 @@ Load Data: Open Worksheet on Uncleaned DS Jobs and the transform tables.
 
 Sal by Role
 
+<img src="https://github.com/itscole05/EDM-Portfolio--Miranda/blob/itscoley/Midterm%20Lab%20Task%203/images3/role%20pivot%20table.png" align="center" height="350" width="600"/>
+
+Sal by State
+
+<img src="https://github.com/itscole05/EDM-Portfolio--Miranda/blob/itscoley/Midterm%20Lab%20Task%203/images3/size%20pivot%20table.png" align="center" height="350" width="600"/>
+
+Sal by Size
+
+<img src="https://github.com/itscole05/EDM-Portfolio--Miranda/blob/itscoley/Midterm%20Lab%20Task%203/images3/size%20pivot%20table.png" align="center" height="350" width="600"/>
+
 
 
 ## STEP 3 - Design Your Dashboard ##
