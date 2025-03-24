@@ -50,4 +50,4 @@ Color Customization: Home → Cell Styles or manually color chart elements. Char
 
 ## STEP 7 - Insert Dashboard ##
 
-<img src="https://github.com/itscole05/EDM-Portfolio--Miranda/blob/itscoley/Midterm%20Lab%20Task%203/images3/dashboard.png" height="450" width="700"/>
+<img src="https://github.com/itscole05/EDM-Portfolio--Miranda/blob/itscoley/Midterm%20Lab%20Task%203/images3/dashboard.png" height="450" width="900"/>
