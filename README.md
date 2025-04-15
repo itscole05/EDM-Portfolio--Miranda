@@ -25,4 +25,4 @@ I'm interested in learning more about being professional develover.  I've earned
 
 - Midterm Lab Task 3. [Using Pivot Table and Create Dashboard](https://github.com/itscole05/EDM-Portfolio--Miranda/tree/itscoley/Midterm%20Lab%20Task%203)
 
-- Final Lab Task 1. [](https://github.com/itscole05/EDM-Portfolio--Miranda/tree/itscoley/Midterm%20Lab%20Task%203)
+- Final Lab Task 1. [Event Management Database](https://github.com/itscole05/EDM-Portfolio--Miranda/tree/main/Final%20Task%201)
