@@ -22,8 +22,8 @@ This links sponsors to events with events_id and and sponsor_name.
 
 ## Here's the Screenshot of the output of my tables ( See screenshot attached)
 
-img src="" align="center" height="350" width="600"/>
+<img src="" align="center" height="350" width="600"/>
 
 ## Here's the Screenshot for the EDR (See Screenshot) ##
 
-img src="" align="center" height="350" width="600"/>
+<img src="https://github.com/itscole05/EDM-Portfolio--Miranda/blob/main/Final%20Task%201/Images4/ERD.jpg" align="center" height="350" width="600"/>
