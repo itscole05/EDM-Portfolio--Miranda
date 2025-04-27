@@ -75,3 +75,7 @@ SHOW TABLES;
 ## Task 4 - ER Diagram / Schema
 
  <img src="https://github.com/itscole05/EDM-Portfolio--Miranda/blob/main/Final%20Task%202%2Fimagesft2%2FERD.png" alt="Alt Text" width="800" height="400"> 
+
+
+
+[Raw File]()
