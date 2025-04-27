@@ -48,7 +48,7 @@ MODIFY COLUMN product_name VARCHAR(120) NOT NULL;
 
 ## Task 4 - Raw SQL Script for Database and Table
 
-[Raw Copy of MySQL File](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%203/Files/naythan_products.sql)
+[Raw Copy of MySQL File](https://github.com/itscole05/EDM-Portfolio--Miranda/blob/main/Final%20Task%203/Imagesft3/products_db_products.sql)
 
 ```sql
 CREATE DATABASE products_db;
