@@ -78,4 +78,4 @@ SHOW TABLES;
 
 
 
-[Raw File]()
+[Raw File](https://github.com/itscole05/EDM-Portfolio--Miranda/blob/main/Final%20Task%202/imagesft2/finals_lab_task2.sql)
