@@ -74,4 +74,4 @@ SHOW TABLES;
 
 ## Task 4 - ER Diagram / Schema
 
- 
+ <img src="" alt="Alt Text" width="800" height="400"> 
