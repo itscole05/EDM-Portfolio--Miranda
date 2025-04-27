@@ -42,7 +42,7 @@ MODIFY COLUMN product_name VARCHAR(120) NOT NULL;
 
 ## Task 3 - Schema Diagram for Products Table
 
-<img src="Images/Products_tbl.jpg" alt="Alt Text" width="800" height="400">
+<img src="https://github.com/itscole05/EDM-Portfolio--Miranda/blob/main/Final%20Task%203/Imagesft3/tables%20(2).png" alt="Alt Text" width="800" height="400">
 
 ---
 
