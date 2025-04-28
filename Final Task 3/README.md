@@ -1,4 +1,4 @@
-
+# Final Lab Task 3: Table Manipulation #
 
 ## Task 1 - SQL Query Operations
 
