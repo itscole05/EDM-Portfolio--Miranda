@@ -29,3 +29,7 @@ I'm interested in learning more about being professional develover.  I've earned
 ## Final Lab Tasks ##
 
 - Final Lab Task 1. [Event Management Database](https://github.com/itscole05/EDM-Portfolio--Miranda/tree/main/Final%20Task%201)
+  
+- Final Lab Task 2. [Transforming ER into Relational Tables](https://github.com/itscole05/EDM-Portfolio--Miranda/tree/main/Final%20Task%202)
+
+- Final Lab Task 3. [Table Manipulation](https://github.com/itscole05/EDM-Portfolio--Miranda/blob/main/Final%20Task%203/README.md)
