@@ -5,14 +5,16 @@
 ## Task 1 - Query Statements
 
 
+```sql
 SELECT * FROM student;
 SELECT * FROM assignment;
 SELECT * FROM submission;
-
+```
 
 ---
 
 ## Task 2 - Table Structure and Insert Data
+
 
 ```sql
 CREATE DATABASE student_db;
