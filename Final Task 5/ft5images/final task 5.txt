@@ -1,0 +1,61 @@
+
+
+CREATE VIEW Q1 AS 
+SELECT vendors.V_CODE, vendors.V_NAME, products.P_DESCRIPT, products.P_INDATE
+FROM vendors
+JOIN products ON vendors.V_CODE = products.V_CODE
+WHERE products.P_INDATE >= '2002-01-01';
+
+SELECT * FROM Q1;
+
+CREATE VIEW Q2 AS
+SELECT P_DESCRIPT, P_PRICE
+FROM products
+WHERE P_PRICE BETWEEN 100 AND 150;
+
+SELECT * FROM Q2;
+
+CREATE VIEW Q3 AS
+SELECT SUM (P_ONHAND * P_PRICE) AS total_price
+FROM products
+WHERE V_CODE IN (21344, 23119 and 24288);
+
+SELECT * FROM Q3;
+
+DELIMITER $$
+CREATE PROCEDURE update_vendor_name(IN old_name VARCHAR(50))
+BEGIN
+    UPDATE vendors
+    SET v_name = 'Bryson and Co'
+    WHERE v_name = old_name;
+END //
+
+DELIMITER ;
+
+CALL update_vendor_name('Bryson,Inc.');
+
+SELECT * FROM vendors WHERE v_name LIKE 'Bryson%';
+
+SET SQL_SAFE_UPDATES = 0;
+
+DELIMITER //
+
+
+CREATE FUNCTION Q5(vcode INT, vstate VARCHAR(3))
+RETURNS VARCHAR(255)
+DETERMINISTIC
+BEGIN
+DECLARE result VARCHAR(255);
+SELECT CONCAT(P_DESCRIPT, ' - ', P_PRICE)
+INTO result
+FROM products
+JOIN vendors ON vendors.V_CODE = products.V_CODE
+WHERE vendors.V_CODE = vcode AND vendors.V_STATE = vstate
+LIMIT 1;
+RETURN result;
+END $$
+DELIMITER ;
+
+
+
+SELECT Q5(21344, 'KY');
