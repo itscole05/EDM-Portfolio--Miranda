@@ -46,14 +46,21 @@ DELIMITER $$
 4.CREATE a STORED PROCEDURE that WILL take a SINGLE PARAMETER and UPDATED the Name of Vendor ‘Bryson,Inc.’ to ‘Bryson and Co’.
 
 ```sql
-CREATE PROCEDURE Q4(IN old_name VARCHAR(30))
-BEGIN 
-UPDATE vendors
-SET V_NAME = 'Bryson and Co.'
-WHERE V_NAME = old_name;
-SELECT * FROM vendors WHERE V_NAME = 'Bryson and Co.';
+BEGIN
+    UPDATE vendors
+    SET v_name = 'Bryson and Co'
+    WHERE v_name = old_name;
 END $$
+
 DELIMITER ;
+
+CALL update_vendor_name('Bryson,Inc.');
+
+SELECT * FROM vendors WHERE v_name LIKE 'Bryson%';
+
+SET SQL_SAFE_UPDATES = 0;
+
+DELIMITER $$
 ```
 **Output**
 <img src="" alt="Alt Text" width="800" height="400"> 
@@ -61,6 +68,24 @@ DELIMITER ;
 5. CREATE A Function that will take 2 parameters(v_code and v_state) and display All the product description and price based on the parameters passed to the function.
 
 ```sql 
+DELIMITER $$
+CREATE FUNCTION Q5(vcode INT, vstate VARCHAR(3))
+RETURNS VARCHAR(255)
+DETERMINISTIC
+BEGIN
+DECLARE result VARCHAR(255);
+SELECT CONCAT(P_DESCRIPT, ' - ', P_PRICE)
+INTO result
+FROM products
+JOIN vendors ON vendors.V_CODE = products.V_CODE
+WHERE vendors.V_CODE = vcode AND vendors.V_STATE = vstate
+LIMIT 1;
+RETURN result;
+END $$
+DELIMITER ;
+
+
+
 SELECT Q5(21344, 'KY');
 ```
 **Output**
