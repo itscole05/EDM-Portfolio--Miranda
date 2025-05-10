@@ -13,7 +13,7 @@ SELECT * FROM Q1;
 ```
 
 **Output**
-<img src="" alt="Alt Text" width="800" height="400"> 
+<img src="https://github.com/itscole05/EDM-Portfolio--Miranda/blob/main/Final%20Task%205/ft5images/Q1.png" alt="Alt Text" width="800" height="400"> 
 
 2. CREATE a VIEW that will display all products whose price range is between 100-150
 
@@ -26,7 +26,7 @@ WHERE P_PRICE BETWEEN 100 AND 150;
 SELECT * FROM Q2;
 ```
 **Output**
-<img src="" alt="Alt Text" width="800" height="400"> 
+<img src="https://github.com/itscole05/EDM-Portfolio--Miranda/blob/main/Final%20Task%205/ft5images/Q2.png" alt="Alt Text" width="800" height="400"> 
 
 3. Create a VIEW that will COMPUTE for the (TOTAL_PRICE) of ALL PRODUCTS by getting the (P_ONHAND x P_PRICE) Sold by vendors with the following v_code (21344, 23119 and 24288)
 
@@ -41,7 +41,7 @@ SELECT * FROM Q3;
 DELIMITER $$
 ```
 **Output**
-<img src="" alt="Alt Text" width="800" height="400"> 
+<img src="https://github.com/itscole05/EDM-Portfolio--Miranda/blob/main/Final%20Task%205/ft5images/Q3.png" alt="Alt Text" width="800" height="400"> 
 
 4.CREATE a STORED PROCEDURE that WILL take a SINGLE PARAMETER and UPDATED the Name of Vendor ‘Bryson,Inc.’ to ‘Bryson and Co’.
 
@@ -63,7 +63,7 @@ SET SQL_SAFE_UPDATES = 0;
 DELIMITER $$
 ```
 **Output**
-<img src="" alt="Alt Text" width="800" height="400"> 
+<img src="https://github.com/itscole05/EDM-Portfolio--Miranda/blob/main/Final%20Task%205/ft5images/Q4.png" alt="Alt Text" width="800" height="400"> 
 
 5. CREATE A Function that will take 2 parameters(v_code and v_state) and display All the product description and price based on the parameters passed to the function.
 
@@ -89,8 +89,8 @@ DELIMITER ;
 SELECT Q5(21344, 'KY');
 ```
 **Output**
-<img src="" alt="Alt Text" width="800" height="400"> 
+<img src="https://github.com/itscole05/EDM-Portfolio--Miranda/blob/main/Final%20Task%205/ft5images/Q5.png" alt="Alt Text" width="800" height="400"> 
 
 
-[MYSQL FILE LAB TASK 5 ](.)
+[MYSQL FILE LAB TASK 5 ](https://github.com/itscole05/EDM-Portfolio--Miranda/blob/main/Final%20Task%205/ft5images/final%20task%205.txt)
 
