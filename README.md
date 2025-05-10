@@ -35,3 +35,5 @@ I'm interested in learning more about being professional develover.  I've earned
 - Final Lab Task 3. [Table Manipulation](https://github.com/itscole05/EDM-Portfolio--Miranda/blob/main/Final%20Task%203/README.md)
 
 - Final Lab Task 4. [Employee Database](https://github.com/itscole05/EDM-Portfolio--Miranda/tree/main/Final%20Task%204)
+
+- Final Lab Task 5. [Using SQL views and Stored Procedures and Stored Functions](.)
