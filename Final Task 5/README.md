@@ -29,3 +29,43 @@ SELECT * FROM Q2;
 <img src="" alt="Alt Text" width="800" height="400"> 
 
 3. Create a VIEW that will COMPUTE for the (TOTAL_PRICE) of ALL PRODUCTS by getting the (P_ONHAND x P_PRICE) Sold by vendors with the following v_code (21344, 23119 and 24288)
+
+```sql
+CREATE VIEW Q3 AS
+SELECT SUM(P_ONHAND * P_PRICE) AS total_price
+FROM products
+WHERE V_CODE IN (21344, 23119 and 24288);
+
+SELECT * FROM Q3;
+
+DELIMITER $$
+```
+**Output**
+<img src="" alt="Alt Text" width="800" height="400"> 
+
+4.CREATE a STORED PROCEDURE that WILL take a SINGLE PARAMETER and UPDATED the Name of Vendor ‘Bryson,Inc.’ to ‘Bryson and Co’.
+
+```sql
+CREATE PROCEDURE Q4(IN old_name VARCHAR(30))
+BEGIN 
+UPDATE vendors
+SET V_NAME = 'Bryson and Co.'
+WHERE V_NAME = old_name;
+SELECT * FROM vendors WHERE V_NAME = 'Bryson and Co.';
+END $$
+DELIMITER ;
+```
+**Output**
+<img src="" alt="Alt Text" width="800" height="400"> 
+
+5. CREATE A Function that will take 2 parameters(v_code and v_state) and display All the product description and price based on the parameters passed to the function.
+
+```sql 
+SELECT Q5(21344, 'KY');
+```
+**Output**
+<img src="" alt="Alt Text" width="800" height="400"> 
+
+
+[MYSQL FILE LAB TASK 5 ](.)
+
