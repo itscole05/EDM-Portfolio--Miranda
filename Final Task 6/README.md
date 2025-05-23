@@ -49,7 +49,7 @@ db.movies.insertMany([
   }
 ])
 ```
-![Alt Text]()
+![Alt Text](https://github.com/itscole05/EDM-Portfolio--Miranda/blob/main/Final%20Task%206/ft6images/insert.png)
 
 ##  Task 2: Querying Documents
 
@@ -63,31 +63,31 @@ db.movies.insertMany([
 ```sql
 db.movies.find({ writer: "Quentin Tarantino" })
 ```
-![Alt Text]()
+![Alt Text](https://github.com/itscole05/EDM-Portfolio--Miranda/blob/main/Final%20Task%206/ft6images/find.png)
 
 - Get all documents where actors include "Brad Pitt"
 ```sql
 db.movies.find({ actors: "Brad Pitt" })
 ```
-![Alt Text]()
+![Alt Text](https://github.com/itscole05/EDM-Portfolio--Miranda/blob/main/Final%20Task%206/ft6images/find1.png)
 
 - Get all documents with franchise set to "The Hobbit"
 ```sql
 db.movies.find({ franchise: "The Hobbit" })
 ```
-![Alt Text]()
+![Alt Text](https://github.com/itscole05/EDM-Portfolio--Miranda/blob/main/Final%20Task%206/ft6images/find2.png)
 
 - Get all movies released in the 1990s (1990 ≤ year ≤ 1999)
 ```sql
 db.movies.find({ year: { $gte: 1990, $lte: 1999 } })
 ```
-![Alt Text]()
+![Alt Text](http://github.com/itscole05/EDM-Portfolio--Miranda/blob/main/Final%20Task%206/ft6images/find3.png)
 
 - Get all movies released before 2000 or after 2010
 ```sql
 db.movies.find({ $or: [ { year: { $lt: 2000 } }, { year: { $gt: 2010 } } ] })
 ```
-![Alt Text]()
+![Alt Text](https://github.com/itscole05/EDM-Portfolio--Miranda/blob/main/Final%20Task%206/ft6images/find4.png)
 
 ##  Task 3: Updating Documents
 
