@@ -96,50 +96,50 @@ Update documents in the movies collection as follows:
 - Add a synopsis to "The Hobbit: An Unexpected Journey":
 "A reluctant hobbit, Bilbo Baggins, sets out to the Lonely Mountain with a spirited group of dwarves to reclaim their mountain home - and the gold within it - from the dragon Smaug."
 
-![Alt Text]()
+![Alt Text](https://github.com/itscole05/EDM-Portfolio--Miranda/blob/main/Final%20Task%206/ft6images/update1.png)
 
 - Add a synopsis to "The Hobbit: The Desolation of Smaug":
 "The dwarves, along with Bilbo Baggins and Gandalf the Grey, continue their quest to reclaim Erebor, their homeland, from Smaug. Bilbo Baggins is in possession of a mysterious and magical ring."
 
-![Alt Text]()
+![Alt Text](https://github.com/itscole05/EDM-Portfolio--Miranda/blob/main/Final%20Task%206/ft6images/update2.png)
 
 - Add the actor "Samuel L. Jackson" to "Pulp Fiction".
 
-![Alt Text]()
+![Alt Text](https://github.com/itscole05/EDM-Portfolio--Miranda/tree/main/Final%20Task%206)
 
 ##  Task 4: Text Search Queries
 Write queries to:
 
 - Find all movies whose synopsis contains the word "Bilbo".
   
-![Alt Text]()
+![Alt Text](https://github.com/itscole05/EDM-Portfolio--Miranda/blob/main/Final%20Task%206/ft6images/findx1.png)
 
 - Find all movies whose synopsis contains "Gandalf".
-![Alt Text]()
+![Alt Text](https://github.com/itscole05/EDM-Portfolio--Miranda/blob/main/Final%20Task%206/ft6images/findx2.png)
 
 - Find all movies whose synopsis contains "Bilbo" but not "Gandalf".
   
-![Alt Text]()
+![Alt Text](http://github.com/itscole05/EDM-Portfolio--Miranda/blob/main/Final%20Task%206/ft6images/findx3.png)
 
 - Find all movies whose synopsis contains "dwarves" or "hobbit".
   
-![Alt Text]()
+![Alt Text](https://github.com/itscole05/EDM-Portfolio--Miranda/blob/main/Final%20Task%206/ft6images/findx4.png)
 
 - Find all movies whose synopsis contains both "gold" and "dragon".
   
-![Alt Text]()
+![Alt Text](https://github.com/itscole05/EDM-Portfolio--Miranda/blob/main/Final%20Task%206/ft6images/findx5.png)
 
 ##  Task 5: Delete Documents
 Remove the following movies from the collection:
 
 - Pee Wee Herman's Big Adventure
 
-![Alt Text]()
+![Alt Text](https://github.com/itscole05/EDM-Portfolio--Miranda/blob/main/Final%20Task%206/ft6images/delete1.png)
 
 - Avatar
 
-![Alt Text]()
+![Alt Text](https://github.com/itscole05/EDM-Portfolio--Miranda/blob/main/Final%20Task%206/ft6images/del2.png)
 
 ##  Task 6 – MongoDB Files
 
-[Download MongoDB File]()
+[Download MongoDB File](https://github.com/itscole05/EDM-Portfolio--Miranda/blob/main/Final%20Task%206/ft6images/mongo_practice.movies.json)
