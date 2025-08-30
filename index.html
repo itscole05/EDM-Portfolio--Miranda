@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>EDM Portfolio - Erica Nicole C. Miranda</title>
   <style>
-    /* Reset */
     * { margin: 0; padding: 0; box-sizing: border-box; }
 
     body {
@@ -18,13 +17,50 @@
     }
 
     header {
-      height: 100vh;
+      min-height: 100vh;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      background: linear-gradient(135deg, #1a1a1a, #0f0f0f);
-      padding: 20px;
+      padding: 40px 20px;
+      position: relative;
+    }
+
+    /* Hero background decoration */
+    header::before {
+      content: "";
+      position: absolute;
+      top: -50px;
+      left: -50px;
+      width: 300px;
+      height: 300px;
+      background: radial-gradient(circle, rgba(255,110,196,0.4), transparent 70%);
+      border-radius: 50%;
+      z-index: 0;
+    }
+
+    header::after {
+      content: "";
+      position: absolute;
+      bottom: -60px;
+      right: -60px;
+      width: 250px;
+      height: 250px;
+      background: radial-gradient(circle, rgba(120,115,245,0.4), transparent 70%);
+      border-radius: 50%;
+      z-index: 0;
+    }
+
+    /* Profile picture */
+    .profile-pic {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #ff6ec4;
+      margin-bottom: 20px;
+      z-index: 1;
+      position: relative;
     }
 
     header h1 {
@@ -34,12 +70,14 @@
       background: linear-gradient(90deg, #ff6ec4, #7873f5);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+      z-index: 1;
     }
 
     header p {
       font-size: 1.2rem;
       color: #aaa;
       margin-bottom: 20px;
+      z-index: 1;
     }
 
     .btn {
@@ -51,6 +89,8 @@
       font-weight: 600;
       text-decoration: none;
       transition: 0.3s;
+      z-index: 1;
+      position: relative;
     }
 
     .btn:hover {
@@ -102,6 +142,8 @@
 
   <!-- Hero -->
   <header>
+    <!-- Replace profile.jpg with your actual photo -->
+    <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
     <h1>EDM Portfolio</h1>
     <p>Erica Nicole C. Miranda • BS Information System</p>
     <a href="#about" class="btn">Explore My Work</a>
