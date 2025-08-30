@@ -1,171 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>EDM Portfolio - Erica Nicole C. Miranda</title>
-  <style>
-    /* Reset */
-    * { margin: 0; padding: 0; box-sizing: border-box; }
+# EDM-Portfolio--Miranda
+This portfolio will contain copies of my Enterprise Data Management Lab Exercises
 
-    body {
-      font-family: 'Poppins', sans-serif;
-      background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
-      color: #fff;
-      text-align: center;
-      line-height: 1.6;
-      overflow-x: hidden;
-    }
+# About Me
+Hello World! I am Erica Nicole C. Miranda, a 1st Year student under the course Bachelor of Science Information System at City College of Angeles. 
+I'm interested in learning more about being professional develover.  I've earned a certificate in C, and I'm still learning more about data structures and web programming.  I want to be a full-stack developer and am especially eager about learning about front-end and back-end development and creating online applications.
 
-    header {
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      background: linear-gradient(135deg, #1a1a1a, #0f0f0f);
-      padding: 20px;
-    }
+[**See Certificate**](Certificate/Erica%20NicoleMiranda-Fundamentals%20of%20-certificate.pdf)
 
-    header h1 {
-      font-size: 3rem;
-      font-weight: 700;
-      margin-bottom: 10px;
-      background: linear-gradient(90deg, #ff6ec4, #7873f5);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
+# Education
 
-    header p {
-      font-size: 1.2rem;
-      color: #aaa;
-      margin-bottom: 20px;
-    }
+**College :** Bachelor of Science in Information System (City College Of Angeles)
 
-    .btn {
-      display: inline-block;
-      padding: 12px 25px;
-      border-radius: 30px;
-      background: linear-gradient(90deg, #ff6ec4, #7873f5);
-      color: white;
-      font-weight: 600;
-      text-decoration: none;
-      transition: 0.3s;
-    }
+**Senior-High School:** Technical Vocational Livelihood- Cookery (FGNMHS) 
 
-    .btn:hover {
-      transform: scale(1.05);
-      box-shadow: 0 5px 20px rgba(255, 110, 196, 0.6);
-    }
+**High School :** Francisco G. Nepomuceno Memorial High School
 
-    section {
-      padding: 60px 20px;
-      max-width: 900px;
-      margin: auto;
-    }
+**Elementary:** Enrica Sandico Integrated School
 
-    h2 {
-      font-size: 2rem;
-      margin-bottom: 20px;
-      color: #ff6ec4;
-    }
+# My Projects
 
-    .card {
-      background: #1f1f1f;
-      border-radius: 20px;
-      padding: 25px;
-      margin: 20px 0;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.5);
-      transition: 0.3s;
-      text-align: left;
-    }
+## Midterm Lab Tasks ##
+- Midterm Lab Task 1: [Data Cleaning and Preparation using EXCEL](https://github.com/itscole05/EDM-Portfolio--Miranda/tree/da1bc922b0fa8f7b343577ddfa0621bd35e1e1f3/Midterm%20Lab%20Task%201)
 
-    .card:hover { transform: translateY(-5px); }
+- Midterm Lab Task 2: [Data Cleaning and Preparation using POWER QUERY](https://github.com/itscole05/EDM-Portfolio--Miranda/tree/da1bc922b0fa8f7b343577ddfa0621bd35e1e1f3/Midterm%20Lab%20Task%202)
 
-    .card h3 { margin-bottom: 10px; color: #7873f5; }
+- Midterm Lab Task 3. [Using Pivot Table and Create Dashboard](https://github.com/itscole05/EDM-Portfolio--Miranda/tree/itscoley/Midterm%20Lab%20Task%203)
 
-    .card a { color: #ff6ec4; font-weight: 600; text-decoration: none; }
-    .card a:hover { text-decoration: underline; }
+## Final Lab Tasks ##
 
-    footer {
-      padding: 20px;
-      font-size: 0.9rem;
-      color: #888;
-      margin-top: 40px;
-    }
+- Final Lab Task 1. [Event Management Database](https://github.com/itscole05/EDM-Portfolio--Miranda/tree/main/Final%20Task%201)
+  
+- Final Lab Task 2. [Transforming ER into Relational Tables](https://github.com/itscole05/EDM-Portfolio--Miranda/tree/main/Final%20Task%202)
 
-    ul { list-style: none; padding: 0; }
-    ul li { margin: 8px 0; }
-  </style>
-</head>
-<body>
+- Final Lab Task 3. [Table Manipulation](https://github.com/itscole05/EDM-Portfolio--Miranda/blob/main/Final%20Task%203/README.md)
 
-  <!-- Hero -->
-  <header>
-    <h1>EDM Portfolio</h1>
-    <p>Erica Nicole C. Miranda • BS Information System</p>
-    <a href="#about" class="btn">Explore My Work</a>
-  </header>
+- Final Lab Task 4. [Employee Database](https://github.com/itscole05/EDM-Portfolio--Miranda/tree/main/Final%20Task%204)
 
-  <!-- About -->
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      Hello World! I am <strong>Erica Nicole C. Miranda</strong>, a 1st Year student under the course 
-      <em>Bachelor of Science in Information System</em> at City College of Angeles.  
-    </p>
-    <p>
-      I'm interested in learning more about being a professional developer.  
-      I've earned a certificate in C, and I'm still learning more about data structures and web programming.  
-      My goal is to become a full-stack developer and I’m especially eager to explore both front-end and back-end development to create online applications.
-    </p>
-    <p>
-      <a href="Certificate/Erica%20NicoleMiranda-Fundamentals%20of%20-certificate.pdf" class="btn">📜 See Certificate</a>
-    </p>
-  </section>
-
-  <!-- Education -->
-  <section id="education">
-    <h2>Education</h2>
-    <div class="card">
-      <ul>
-        <li><strong>College:</strong> Bachelor of Science in Information System (City College Of Angeles)</li>
-        <li><strong>Senior High School:</strong> Technical Vocational Livelihood - Cookery (FGNMHS)</li>
-        <li><strong>High School:</strong> Francisco G. Nepomuceno Memorial High School</li>
-        <li><strong>Elementary:</strong> Enrica Sandico Integrated School</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- Projects -->
-  <section id="projects">
-    <h2>My Projects</h2>
-
-    <h3>Midterm Lab Tasks</h3>
-    <div class="card">
-      <ul>
-        <li><a href="https://github.com/itscole05/EDM-Portfolio--Miranda/tree/da1bc922b0fa8f7b343577ddfa0621bd35e1e1f3/Midterm%20Lab%20Task%201">Midterm Lab Task 1: Data Cleaning and Preparation using EXCEL</a></li>
-        <li><a href="https://github.com/itscole05/EDM-Portfolio--Miranda/tree/da1bc922b0fa8f7b343577ddfa0621bd35e1e1f3/Midterm%20Lab%20Task%202">Midterm Lab Task 2: Data Cleaning and Preparation using POWER QUERY</a></li>
-        <li><a href="https://github.com/itscole05/EDM-Portfolio--Miranda/tree/itscoley/Midterm%20Lab%20Task%203">Midterm Lab Task 3: Using Pivot Table and Create Dashboard</a></li>
-      </ul>
-    </div>
-
-    <h3>Final Lab Tasks</h3>
-    <div class="card">
-      <ul>
-        <li><a href="https://github.com/itscole05/EDM-Portfolio--Miranda/tree/main/Final%20Task%201">Final Lab Task 1: Event Management Database</a></li>
-        <li><a href="https://github.com/itscole05/EDM-Portfolio--Miranda/tree/main/Final%20Task%202">Final Lab Task 2: Transforming ER into Relational Tables</a></li>
-        <li><a href="https://github.com/itscole05/EDM-Portfolio--Miranda/blob/main/Final%20Task%203/README.md">Final Lab Task 3: Table Manipulation</a></li>
-        <li><a href="https://github.com/itscole05/EDM-Portfolio--Miranda/tree/main/Final%20Task%204">Final Lab Task 4: Employee Database</a></li>
-        <li><a href=".">Final Lab Task 5: Using SQL views, Stored Procedures, and Stored Functions</a></li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <p>© 2025 Erica Nicole C. Miranda | EDM Portfolio</p>
-  </footer>
-
-</body>
-</html>
+- Final Lab Task 5. [Using SQL views and Stored Procedures and Stored Functions](.)
